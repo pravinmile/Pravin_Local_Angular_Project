@@ -1,0 +1,58 @@
+.signUpBox{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+    transition: 0.5s;    
+}
+.signUpBox:hover{
+    background-color: rgb(236, 199, 173);
+    box-shadow: 0px 0px 20px black;
+}
+.Logo{
+    position: relative;
+    top: -50px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.usern{
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 3px;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+input{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+.btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 200px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(157, 234, 157);
+}

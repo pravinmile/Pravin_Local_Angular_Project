@@ -1,0 +1,54 @@
+.box{
+    border: 1px solid black;
+    height: 500px ;
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(185, 180, 180);
+    transition: 2s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+}
+.box:hover{
+    box-shadow: 0px 0px 18px black;
+    background-color: rgb(230, 142, 142);
+}
+.login_title{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.indiv{
+    position: relative;
+    top: 2.7rem;
+    left: 3.5rem;
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input{
+    padding: 10px;
+    width: 50%;
+    max-width: 300px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid skyblue;
+}
+.btn{
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: yellowgreen;
+    font-size: 30px;
+}
