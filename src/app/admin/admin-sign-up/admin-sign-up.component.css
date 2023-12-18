@@ -1,0 +1,31 @@
+.btn{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid greenyellow;
+}
+.box{
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    background-color: turquoise;
+    font-family: Impact;
+    height: 300;
+    width: 200px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btnsbmt{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid greenyellow;
+}
