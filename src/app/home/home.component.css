@@ -14,7 +14,7 @@ h1{
 .div1{
     border: 2px solid black;
     height: auto;
-    width: 309px;
+    width: auto;
     margin: auto;
     padding: 10px;
     position: absolute;
@@ -26,5 +26,5 @@ button{
     font-family: 'Courier New', Courier, monospace;
     border-radius: 5px;
     font-size: 20px;
-
+    padding: 10px;
 }
