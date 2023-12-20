@@ -1,7 +1,12 @@
-body{
+/* .body{
     margin: 0;
     /* background-color: brown; */
-    font-family: cursive;
+ /*   font-family: cursive;
+    background-color: rgb(85, 197, 220);
+} */
+body{
+    margin: 0%;
+    padding: 0%;
 }
 h1{
     text-align: center;

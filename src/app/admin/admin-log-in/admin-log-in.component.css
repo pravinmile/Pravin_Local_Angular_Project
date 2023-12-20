@@ -64,3 +64,13 @@ p{
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
+.homebtn{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 30px;
+    font-family: monospace;
+    border-radius: 5px;
+}
